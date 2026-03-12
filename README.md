@@ -1,30 +1,57 @@
-# Artistheway ecommerce
+# Artistheway
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Ecommerce editorial para una colección de pinturas y fotografía inspirada en la herencia cultural de **Tarija, Bolivia**.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/adr24s-projects/v0-artistheway-ecommerce)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/ql3GxJEiAwv)
+## Qué es este proyecto
 
-## Overview
+Artistheway es una experiencia de comercio visual donde arte, narrativa y herencia cultural conviven en una misma interfaz. El proyecto combina catálogo, storytelling de marca y presentación curada de obras.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## El reto
 
-## Deployment
+El reto principal fue **construir una tienda que vendiera piezas artísticas sin sentirse como un ecommerce genérico**.
 
-Your project is live at:
+Había que lograr equilibrio entre:
 
-**[https://vercel.com/adr24s-projects/v0-artistheway-ecommerce](https://vercel.com/adr24s-projects/v0-artistheway-ecommerce)**
+- identidad cultural
+- presentación comercial
+- navegación por catálogo
+- una atmósfera visual capaz de sostener el valor percibido de las obras
 
-## Build your app
+## Cómo lo resolví
 
-Continue building your app on:
+- Diseñé una home con fuerte dirección visual y narrativa de marca.
+- Organicé el catálogo en colecciones y categorías para facilitar exploración.
+- Trabajé el diseño de producto para que cada pieza se sintiera curada, no listada de forma mecánica.
+- Combiné componentes de ecommerce con una estética editorial y artística.
 
-**[https://v0.app/chat/projects/ql3GxJEiAwv](https://v0.app/chat/projects/ql3GxJEiAwv)**
+## Stack
 
-## How It Works
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Stripe
+- Three.js / React Three Fiber
+- v0
+- Vercel
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Lo que hace valioso este proyecto
+
+Este proyecto demuestra la capacidad de diseñar ecommerce con identidad: **una tienda que no solo vende, sino que construye universo de marca y contexto cultural alrededor del producto**.
+
+## Aprendizajes
+
+- En proyectos creativos, la dirección visual impacta directamente la percepción de valor.
+- El storytelling puede mejorar conversión cuando está integrado al recorrido de compra.
+- Un ecommerce cultural necesita equilibrio entre catálogo y narrativa.
+
+## Desarrollo local
+
+```bash
+npm install
+npm run dev
+```
+
+## Enlace del proyecto
+
+- Repositorio: https://github.com/adriaavila/artistheway
